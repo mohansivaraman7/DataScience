@@ -1,0 +1,105 @@
+Grid Search     Random Search   Bayesian Optimzation
+
+720                 360                 100
+242s                113s                   48s
+
+1. Manual Search
+2. Grid Search ---> it explores all possible combination of hyperparameter
+3. Random Search ---. it explores only random combination of hyperparameter
+
+dep_delayed_col
+
+Y
+N
+Y
+Y
+Y
+Y
+Y
+NY
+Y
+
+Y - 55
+N - 35
+
+"""Gradient Meaning"""
+
+Gradient : Actual ---> Predcition (Loss Function)
+
+Loss --- Lesser (high model)
+Loss --- High (poor model)
+
+"""------------------------------------------------------------------"""
+Ensemble:
+
+Boosting and Bagging
+
+Boosting: It is the process of ensemble technique, where multiple weak learners are combined
+sequentially to create strong learner.
+
+Ideal: To correct error from the previous input.
+
+Type:
+
+1. AdaBoost (Adaptive Boosting)
+2. Gradient Boosting
+3. XG Boosting,
+4. LightGBM
+5. CatBoost
+
+Interview: Boosting, Bagging and RandomForest looks similar in approach. All these three comes under
+Ensemble Technique.
+
+Boosting is called sequential ensemble technique
+randomforest is called parallel ensemble technique
+
+Boosting reduces BIAS more effectively for model correction
+RAndom forest focuses on reducing variance by average
+
+Boosting is best fit for handling bias (overfitting)
+Baggin is best fir for handling variance (overfitting)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
